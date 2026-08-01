@@ -1,0 +1,43 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
+  theme: {
+    container: {
+      center: true,
+      padding: '1rem',
+    },
+    extend: {
+      colors: {
+        background: { DEFAULT: 'var(--background)', secondary: 'var(--background-secondary)' },
+        foreground: { DEFAULT: 'var(--foreground)' },
+        primary: { DEFAULT: 'var(--primary)', foreground: 'var(--primary-foreground)' },
+        secondary: { DEFAULT: 'var(--secondary)', foreground: 'var(--secondary-foreground)' },
+        accent: { DEFAULT: 'var(--accent)', foreground: 'var(--accent-foreground)' },
+        muted: { DEFAULT: 'var(--muted)', foreground: 'var(--muted-foreground)' },
+        card: { DEFAULT: 'var(--card)', foreground: 'var(--card-foreground)' },
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)',
+      },
+      borderRadius: {
+        sm: 'calc(var(--radius) - 4px)',
+        md: 'var(--radius)',
+        lg: 'calc(var(--radius) + 4px)',
+        xl: 'calc(var(--radius) + 8px)',
+        '2xl': 'calc(var(--radius) + 16px)',
+        '3xl': 'calc(var(--radius) + 24px)',
+      },
+      fontFamily: {
+        sans: ['var(--font-dm-sans)', 'sans-serif'],
+        mono: ['var(--font-jetbrains-mono)', 'monospace'],
+      },
+      animation: {
+        float: 'float 4s ease-in-out infinite',
+        shimmer: 'shimmer 3s linear infinite',
+        'pulse-green': 'pulse-green 2s ease-in-out infinite',
+      },
+    },
+  },
+  plugins: [require('@tailwindcss/typography')],
+};
