@@ -59,11 +59,7 @@ export default function ProcessSection() {
             {/* Connection Line - Desktop only */}
             <motion.div
               className="hidden lg:block absolute top-12 left-[12.5%] right-[12.5%] h-px pointer-events-none"
-              style={{
-                background: 'linear-gradient(90deg, #06B6D4 0%, #3B82F6 50%, #9333EA 100%)',
-                boxShadow: '0 0 20px rgba(6, 182, 212, 0.8), 0 0 40px rgba(59, 130, 246, 0.4)',
-                transformOrigin: 'left'
-              }}
+              
               initial={{ scaleX: 0 }}
               whileInView={{ scaleX: 1 }}
               viewport={{ once: true, margin: '-100px' }}

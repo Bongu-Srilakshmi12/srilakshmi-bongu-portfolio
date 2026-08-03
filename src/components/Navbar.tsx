@@ -19,7 +19,6 @@ function SLLogo() {
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       className="flex items-center gap-2 group"
       aria-label="Scroll to top"
-      title="Back to top"
     >
       <div className="relative flex items-center justify-center w-9 h-9 rounded-xl overflow-hidden"
         style={{
