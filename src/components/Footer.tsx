@@ -77,7 +77,7 @@ export default function Footer() {
           <div className="flex flex-col items-center lg:items-end gap-3 flex-shrink-0">
             <div className="flex items-center gap-3">
               <a
-                href="https://github.com"
+                href="https://github.com/Bongu-Srilakshmi12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-8 sm:h-8 rounded-lg bg-muted/40 hover:bg-primary/10 flex items-center justify-center transition-colors group"
@@ -87,7 +87,7 @@ export default function Footer() {
                 <GithubIcon size={16} className="sm:w-3.5 sm:h-3.5 text-muted-foreground group-hover:text-primary transition-colors" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/sri-lakshmi-bongu-981962291/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 sm:w-8 sm:h-8 rounded-lg bg-muted/40 hover:bg-primary/10 flex items-center justify-center transition-colors group"

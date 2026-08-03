@@ -38,14 +38,14 @@ const socialLinks = [
   {
     icon: LinkedinIcon,
     label: 'LinkedIn',
-    value: 'linkedin.com/in/srilakshmi',
-    href: 'https://linkedin.com',
+    value: 'linkedin.com/in/sri-lakshmi-bongu-981962291',
+    href: 'https://www.linkedin.com/in/sri-lakshmi-bongu-981962291/',
   },
   {
     icon: GithubIcon,
     label: 'GitHub',
-    value: 'github.com/srilakshmi',
-    href: 'https://github.com',
+    value: 'github.com/Bongu-Srilakshmi12',
+    href: 'https://github.com/Bongu-Srilakshmi12',
   },
 ];
 

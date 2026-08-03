@@ -45,9 +45,9 @@ const stats = [
 
 // ─── Social links ──────────────────────────────────────────────────────────────
 const socialLinks = [
-  { icon: GithubIcon, href: 'https://github.com/', label: 'GitHub' },
-  { icon: LinkedinIcon, href: 'https://linkedin.com/', label: 'LinkedIn' },
-  { icon: Mail, href: 'mailto:srilakshmi@email.com', label: 'Email' },
+  { icon: GithubIcon, href: 'https://github.com/Bongu-Srilakshmi12', label: 'GitHub' },
+  { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/sri-lakshmi-bongu-981962291/', label: 'LinkedIn' },
+  { icon: Mail, href: 'mailto:srilakshmigoud0412@gmail.com', label: 'Email' },
   // { icon: TwitterIcon, href: 'https://twitter.com/', label: 'Twitter' }, // COMMENTED OUT
 ];
 
@@ -361,7 +361,7 @@ export default function HeroSection() {
               Hire Me
             </a>
             <a
-              href="/resume.pdf"
+              href="/assets/Bongu_SriLakshmi_Resume.pdf"
               download
               title="Download my resume"
               className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold uppercase tracking-wider transition-all duration-300"

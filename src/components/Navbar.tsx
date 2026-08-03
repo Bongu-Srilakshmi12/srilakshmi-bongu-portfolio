@@ -132,7 +132,7 @@ export default function Navbar() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-2">
             <a
-              href="/resume.pdf"
+              href="/assets/Bongu_SriLakshmi_Resume.pdf"
               download
               title="Download my Resume"
               className="flex items-center gap-1.5 px-3 lg:px-4 py-2 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 hover:-translate-y-1"
@@ -221,7 +221,7 @@ export default function Navbar() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: navLinks.length * 0.06 }}
-                  href="/resume.pdf"
+                  href="/assets/Bongu_SriLakshmi_Resume.pdf"
                   download
                   title="Download my Resume"
                   onClick={() => setMobileOpen(false)}
