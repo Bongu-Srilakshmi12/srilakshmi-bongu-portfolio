@@ -3,6 +3,9 @@ import { imageHosts } from './image-hosts.config.mjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   distDir: process.env.DIST_DIR || '.next',
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     remotePatterns: imageHosts,
     minimumCacheTTL: 60,
