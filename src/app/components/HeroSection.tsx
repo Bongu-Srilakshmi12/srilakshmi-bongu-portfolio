@@ -38,9 +38,8 @@ function TwitterIcon({ size = 16 }: { size?: number }) {
 // ─── Stats ─────────────────────────────────────────────────────────────────────
 const stats = [
   { value: 2, suffix: '+', label: 'Years Exp.' },
-  // { value: 40, suffix: '+', label: 'Projects' }, // COMMENTED OUT
+  { value: 15, suffix: '+', label: 'Web Portals' },
   { value: 100, suffix: '%', label: 'Responsive' },
-  { value: 20, suffix: '+', label: 'Conferences' },
 ];
 
 // ─── Social links ──────────────────────────────────────────────────────────────
@@ -361,8 +360,8 @@ export default function HeroSection() {
               Hire Me
             </a>
             <a
-              href="/assets/Bongu_SriLakshmi_Resume.pdf"
-              download
+              href="/assets/SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
+              download="SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
               title="Download my resume"
               className="flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-bold uppercase tracking-wider transition-all duration-300"
               style={{
@@ -429,7 +428,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
-            className="grid grid-cols-4 gap-4 w-full max-w-sm"
+            className="grid grid-cols-3 gap-4 w-full max-w-sm"
           >
             {stats.map((s) => (
               <StatItem key={s.label} {...s} start={statsVisible} />

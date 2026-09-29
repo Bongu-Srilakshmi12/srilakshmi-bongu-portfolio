@@ -59,14 +59,14 @@ export default function ExperienceSection() {
                   <div className="flex items-center gap-2 mb-1">
                     <span className="text-primary font-mono text-xs uppercase tracking-wider">Full-Time</span>
                     <span className="w-1 h-1 rounded-full bg-muted-foreground" />
-                    <span className="text-green-400 font-mono text-xs">● Current</span>
+                    <span className="text-muted-foreground font-mono text-xs">2+ Years</span>
                   </div>
                   <h3 className="text-xl font-bold text-foreground">Frontend Developer</h3>
                   <p className="text-primary font-semibold mt-0.5">EVEGA Technologies</p>
                 </div>
                 <div className="flex items-center gap-2 text-muted-foreground text-sm font-mono bg-muted/40 px-3 py-1.5 rounded-lg whitespace-nowrap">
                   <Calendar size={14} />
-                  May 2024 – Present
+                  May 2024 – July 2026
                 </div>
               </div>
 

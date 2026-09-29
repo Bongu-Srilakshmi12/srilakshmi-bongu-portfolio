@@ -131,8 +131,8 @@ export default function Navbar() {
           {/* CTA Buttons */}
           <div className="hidden lg:flex items-center gap-2">
             <a
-              href="/assets/Bongu_SriLakshmi_Resume.pdf"
-              download
+              href="/assets/SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
+              download="SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
               title="Download my Resume"
               className="flex items-center gap-1.5 px-3 lg:px-4 py-2 rounded-full text-xs uppercase tracking-wider font-bold transition-all duration-300 hover:-translate-y-1"
               style={{
@@ -220,8 +220,8 @@ export default function Navbar() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ delay: navLinks.length * 0.06 }}
-                  href="/assets/Bongu_SriLakshmi_Resume.pdf"
-                  download
+                  href="/assets/SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
+                  download="SriLakshmi_Bongu_Frontend_Developer_2Years.docx"
                   title="Download my Resume"
                   onClick={() => setMobileOpen(false)}
                   className="flex items-center gap-2 px-6 py-3 rounded-full text-sm uppercase tracking-wider font-bold"
